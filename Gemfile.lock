@@ -1,0 +1,43 @@
+GIT
+  remote: https://github.com/pry/pry.git
+  revision: 62c8951374aeed5a7423609a108848b0bcf81685
+  branch: master
+  specs:
+    pry (0.12.2)
+      coderay (~> 1.1)
+      method_source (~> 0.9.0)
+
+GIT
+  remote: https://github.com/sonicdes/dotenv.git
+  revision: 6ca787d15f6e94956a81a0cbc53d59e5e9db124a
+  branch: master
+  specs:
+    dotenv (2.1.1)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    coderay (1.1.2)
+    method_source (0.9.2)
+    nio4r (2.5.2)
+    pg (1.2.2)
+    puma (4.3.3)
+      nio4r (~> 2.0)
+    rack (2.2.2)
+    roda (3.29.0)
+      rack
+    sequel (5.30.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  dotenv!
+  pg
+  pry!
+  puma
+  roda
+  sequel
+
+BUNDLED WITH
+   2.1.2
